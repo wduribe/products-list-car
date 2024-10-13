@@ -1,0 +1,44 @@
+.item-list {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0,0, 0.6);
+}
+
+.description {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.price-total-item-car {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-total-item-car p {
+    margin: 0;
+    padding: 0;
+    color: rgb(207, 39, 39);
+}
+
+.price-total-item-car p span {
+    color: rgba(0, 0,0, 0.9);
+    margin-left: 1rem;
+}
+
+.price-total-item-car button {
+    margin: 0;
+    padding: 0 5px;
+    border-radius: 100%;
+    background-color: white;
+    border: 2px solid rgba(0, 0,0, 0.6);
+    color: rgba(0, 0,0, 0.6);
+    transition: background-color;
+    transition-duration: 0.3s;
+}
+.price-total-item-car button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0,0, 0.2  );
+    border-color: rgba(0, 0,0, );
+    color: rgba(0, 0,0, );
+}

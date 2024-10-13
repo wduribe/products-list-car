@@ -1,0 +1,91 @@
+.container-car {
+    box-sizing: border-box;
+    width: 350px;  
+    height:min-content;
+    padding: 2rem;
+    border-radius: 12px;
+    background-color: white;
+    overflow: auto;
+}   
+
+.container-car img {
+    width: 200px;
+}
+.container-car h2 {
+    width: 100%;
+    font-size: 2rem;
+    margin: 0;
+    color: rgb(207, 39, 39);
+    text-align: start;   
+}
+.description-empty {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: rgb(134, 78, 78);
+}
+
+.container-img-empty {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.container-list-car {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.container-total-price div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-total-price div strong {
+    font-size: 2rem;
+}
+
+.container-total-price button {
+    width: 100%;
+    margin-top: 0.5rem  ;
+    padding: 0.8rem ;
+    border-radius: 25px;
+    border-color:  rgba(207, 39, 39);
+    background-color: rgba(207, 39, 39);
+    font-weight: bold;
+    color: white;
+}
+
+.container-total-price button:hover {
+    cursor: pointer;
+    background-color: rgba(207, 39, 39, 0.9);
+    border-color:  rgba(207, 39, 39, 0.9);
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .container-car {
+        width: 100%;
+        margin-bottom: 1rem;
+        max-height: 380px;
+    }
+}
+
+@media  screen and (max-width: 500px){
+    .container-car {
+        padding: 1.5rem;
+    }
+}
+/* 
+@media screen and (min-width: 1024px) {
+    .container-car {
+        height: auto;
+    }
+} */

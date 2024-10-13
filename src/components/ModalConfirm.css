@@ -1,0 +1,94 @@
+.container-modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal {
+    box-sizing: border-box;
+    width: 95%;
+    max-width: 600px;
+    padding: 1.5rem;
+    height: auto;
+    border-radius: 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+.modal .img-icon {
+    width: 30px;
+}
+
+.modal h2 {
+    color: rgb(30, 30, 30);
+}
+
+.modal img {
+    width: 70px;
+    margin-right: 1rem;
+}
+
+.modal p{
+    margin-top: 0;
+    font-size: 14px;
+    color: rgba(0,0,0,0.6);
+}
+.modal ul {
+    padding: 0;
+}
+.modal li {
+    width: 100%;
+    display: flex;
+    margin-bottom: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-description-modal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal li .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: normal;
+
+}
+
+.description span {
+    margin-right: 1rem;
+    color: rgba(207, 39, 39);
+}
+
+.container-modal .container-price-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-modal .container-price-total strong {
+    font-size: 2rem;
+}
+
+.container-modal button {
+    width: 100%;
+    margin-top: 0.5rem  ;
+    padding: 0.8rem ;
+    border-radius: 25px;
+    border-color:  rgba(207, 39, 39);
+    background-color: rgba(207, 39, 39);
+    font-weight: bold;
+    color: white;   
+}
+
+.container-modal button:hover {
+    cursor: pointer;
+    background-color: rgba(207, 39, 39, 0.9);
+    border-color:  rgba(207, 39, 39, 0.9);
+}
